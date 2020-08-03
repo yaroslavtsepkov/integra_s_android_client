@@ -2,13 +2,13 @@ package com.example.integra_s_android_client.Models;
 
 import com.example.integra_s_android_client.IModels.ICamera;
 
-public class Camera implements ICamera {
+public class CameraModel implements ICamera {
 
     private Long id;
     private String camUn;
     private Long camid;
     private String serverName;
-    private String CamKey();
+
 
     @Override
     public String getCamActive() {

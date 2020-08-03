@@ -1,4 +1,6 @@
-package com.example.integra_s_android_client;
+package com.example.integra_s_android_client.Models;
+
+import com.example.integra_s_android_client.IUser;
 
 public class UserModel implements IUser {
 
