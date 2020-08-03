@@ -9,6 +9,8 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.integra_s_android_client.IPresenters.ILoginPresenter;
+
 public class LoginModel extends AppCompatActivity implements ILoginView, View.OnClickListener {
     private TextView ip;
     private EditText username;
