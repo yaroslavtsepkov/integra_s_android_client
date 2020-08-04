@@ -6,4 +6,5 @@
     <color name="lightBlue">#A1F7FF</color>
     <color name="green">#60B580</color>
     <color name="red">#C97979</color>
+    <color name="borderColor">#466C70</color>
 </resources>
