@@ -1,4 +1,4 @@
-package com.example.integra_s_android_client;
+package com.example.integra_s_android_client.IModels;
 
 public interface IServerModel {
     public String getIp();

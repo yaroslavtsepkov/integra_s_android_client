@@ -1,5 +1,6 @@
 package com.example.integra_s_android_client;
 
+
 import android.text.TextUtils;
 
 import java.util.logging.Handler;
@@ -16,7 +17,7 @@ public class LoginInteractor {
             public void run() {
 
                 if (TextUtils.isEmpty(username)) {
-                    listener.onUsernameError();
+                    listener.username();
                     return;
                 }
                 if (username.equalsIgnoreCase("himanshu") {

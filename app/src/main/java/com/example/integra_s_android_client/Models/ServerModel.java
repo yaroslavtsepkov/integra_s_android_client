@@ -1,6 +1,6 @@
 package com.example.integra_s_android_client.Models;
 
-import com.example.integra_s_android_client.IServerModel;
+import com.example.integra_s_android_client.IModels.IServerModel;
 
 public class ServerModel implements IServerModel {
     String ip;

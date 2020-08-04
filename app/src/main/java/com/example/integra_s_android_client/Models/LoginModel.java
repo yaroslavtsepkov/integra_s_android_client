@@ -1,19 +1,14 @@
 package com.example.integra_s_android_client.Models;
 
-import android.annotation.SuppressLint;
-import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ProgressBar;
-import android.widget.TextView;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.example.integra_s_android_client.ILoginView;
-import com.example.integra_s_android_client.IPresenters.ILoginPresenter;
+import com.example.integra_s_android_client.IViews.ILoginView;
 import com.example.integra_s_android_client.Presenters.LoginPresenter;
 import com.example.integra_s_android_client.R;
 

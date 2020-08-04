@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">integra_s_android_client</string>
+    <string name="item_small">test</string>
+    <string name="server_small">test</string>
+    <string name="ip">ip</string>
+    <string name="username">username</string>
 </resources>
