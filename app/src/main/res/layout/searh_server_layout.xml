@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="4dp"
+        android:background="@dr"
+        app:layout_constraintBottom_toTopOf="@+id/search_btn"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton5"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.203" />
+
+    <ImageButton
+        android:id="@+id/imageButton5"
+        android:background="@drawable/ic_delete_btn"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="52dp"
+        app:layout_constraintBottom_toTopOf="@+id/search_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.203" />
+
+    <ImageButton
+        android:id="@+id/search_btn"
+        android:layout_width="203dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="40dp"
+        android:background="@drawable/ic_scan_btn"
+        app:layout_constraintBottom_toTopOf="@+id/stop_btn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/search_voice" />
+
+    <ImageButton
+        android:id="@+id/stop_btn"
+        android:layout_width="203dp"
+        android:layout_height="53dp"
+        android:layout_marginBottom="92dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/ic_stop_btn"
+        android:contentDescription="@string/stop_voice" />
+
+    <TextView
+        android:id="@+id/search_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/search_text_view"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="@+id/search_btn"
+        app:layout_constraintEnd_toEndOf="@+id/search_btn"
+        app:layout_constraintStart_toStartOf="@+id/search_btn"
+        app:layout_constraintTop_toTopOf="@+id/search_btn" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/stop_text_view"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="@+id/stop_btn"
+        app:layout_constraintEnd_toEndOf="@+id/stop_btn"
+        app:layout_constraintStart_toStartOf="@+id/stop_btn"
+        app:layout_constraintTop_toTopOf="@+id/stop_btn" />
+</androidx.constraintlayout.widget.ConstraintLayout>

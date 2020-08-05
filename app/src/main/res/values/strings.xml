@@ -4,4 +4,9 @@
     <string name="server_small">test</string>
     <string name="ip">ip</string>
     <string name="username">username</string>
+    <string name="todo">Продолжить</string>
+    <string name="search_text_view">Сканировать</string>
+    <string name="stop_text_view">Остановить</string>
+    <string name="search_voice">Сканировать сеть</string>
+    <string name="stop_voice">Прекратить сканирование</string>
 </resources>

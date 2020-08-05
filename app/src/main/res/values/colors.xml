@@ -7,4 +7,7 @@
     <color name="green">#60B580</color>
     <color name="red">#C97979</color>
     <color name="borderColor">#466C70</color>
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="grey">#3B3B3B</color>
 </resources>

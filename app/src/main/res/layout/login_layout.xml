@@ -11,17 +11,20 @@
         android:id="@+id/editTextUsername"
         android:layout_width="210dp"
         android:layout_height="49dp"
-        android:background="@drawable/border"
+        android:autofillHints=""
+        android:background="@drawable/ic_bottomline"
         android:ems="10"
         android:inputType="textPersonName"
         android:paddingStart="20dp"
         android:text="@string/username"
+        android:textColor="@color/black"
         app:layout_constraintBottom_toTopOf="@+id/imageButton2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textViewIp"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintVertical_bias="0.0"
+        tools:ignore="LabelFor,RtlSymmetry" />
 
     <TextView
         android:id="@+id/textViewIp"
@@ -31,10 +34,13 @@
         android:background="@color/lightBlue"
         android:gravity="center"
         android:text="@string/ip"
+        android:textColor="@color/grey"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
 
     <ImageButton
         android:id="@+id/imageButton2"
@@ -45,6 +51,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.662" />
+        app:layout_constraintVertical_bias="0.662"
+        android:contentDescription="@string/todo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
