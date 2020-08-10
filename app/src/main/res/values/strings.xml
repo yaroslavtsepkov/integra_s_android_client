@@ -3,10 +3,16 @@
     <string name="item_small">test</string>
     <string name="server_small">test</string>
     <string name="ip">ip</string>
-    <string name="username">username</string>
+    <string name="username">Логин</string>
     <string name="todo">Продолжить</string>
     <string name="search_text_view">Сканировать</string>
     <string name="stop_text_view">Остановить</string>
     <string name="search_voice">Сканировать сеть</string>
     <string name="stop_voice">Прекратить сканирование</string>
+    <string name="back">Назад</string>
+    <string name="small_cam">Маленькие</string>
+    <string name="middle_cam">Средние</string>
+    <string name="big_cam">Большие</string>
+    <string name="three_line">Меню</string>
+    <string name="Search">Поиск</string>
 </resources>

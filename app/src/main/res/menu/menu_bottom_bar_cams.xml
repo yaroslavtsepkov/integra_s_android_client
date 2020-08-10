@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/triangle"
+        android:enabled="true"
+        android:icon="@drawable/ic_triangle"
+        android:title="@string/back" />
+    <item
+        android:id="@+id/small_cam"
+        android:enabled="true"
+        android:icon="@drawable/ic_small_cam"
+        android:title="@string/small_cam" />
+    <item
+        android:id="@+id/middle_cam"
+        android:enabled="true"
+        android:icon="@drawable/ic_middle_cam"
+        android:title="@string/middle_cam" />
+    <item
+        android:id="@+id/big_cam"
+        android:enabled="true"
+        android:icon="@drawable/ic_big_cam"
+        android:title="@string/big_cam" />
+    <item
+        android:id="@+id/three_line"
+        android:enabled="true"
+        android:icon="@drawable/ic_3_line"
+        android:title="@string/three_line" />
+</menu>

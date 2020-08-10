@@ -8,6 +8,7 @@ import com.example.integra_s_android_client.IViews.ILoginView;
 import com.example.integra_s_android_client.Models.UserModel;
 
 import java.util.logging.Handler;
+import java.util.logging.LogRecord;
 
 public class LoginPresenterCompl implements ILoginPresenter {
 
@@ -18,7 +19,22 @@ public class LoginPresenterCompl implements ILoginPresenter {
         public LoginPresenterCompl(ILoginView iLoginView) {
             this.iLoginView = iLoginView;
             initUser();
-            handler = new Handler(Looper.getMainLooper());
+            handler = new Handler(Looper.getMainLooper()) {
+                @Override
+                public void publish(LogRecord logRecord) {
+
+                }
+
+                @Override
+                public void flush() {
+
+                }
+
+                @Override
+                public void close() throws SecurityException {
+
+                }
+            };
         }
 
 
